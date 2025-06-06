@@ -13,19 +13,19 @@ Below are portable instructions to install/run with this catalog, if you want to
 Linux, OS X and Windows with bash compatible shell (i.e. cygwin, WSL,etc.)
 
 ```
-curl -Ls https://sh.jbang.dev | bash -s - <alias>
+curl -Ls https://sh.jbang.dev | bash -s - <alias>@jbangdev
 ```
 
 Windows Powershell:
 
 ```
-curl -Ls https://sh.jbang.dev | bash -s - <alias>
+curl -Ls https://sh.jbang.dev | bash -s - <alias>@jbangdev
 ```
 
 ### Run with jbang installed 
 
 ```
-jbang <alias>
+jbang <alias>@jbangdev
 ```
 
 
@@ -34,7 +34,7 @@ jbang <alias>
 Script that says hello back for each argument
 
  ```
- jbang hello
+ jbang hello@jbangdev
  ```
 
 ### properties
@@ -42,7 +42,7 @@ Script that says hello back for each argument
 Dump table of System properties
 
  ```
- jbang properties
+ jbang properties@jbangdev
  ```
 
 ### env
@@ -50,7 +50,7 @@ Dump table of System properties
 Dump table of Environment Variables
 
  ```
- jbang env
+ jbang env@jbangdev
  ```
 
 ### gavsearch
@@ -61,7 +61,7 @@ You can use any of the search modifiers search.maven.org supports, i.e.:
 `gavsearch c:QuarkusTest` will search for artifacts with class `QuarkusTest`
 
  ```
- jbang gavsearch
+ jbang gavsearch@jbangdev
  ```
 
 ### git
@@ -69,7 +69,7 @@ You can use any of the search modifiers search.maven.org supports, i.e.:
 Git command line tool implemented with jgit. Lets you do basic git features without installing git!
 
  ```
- jbang git
+ jbang git@jbangdev
  ```
 
 ### bouncinglogo
@@ -77,7 +77,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 
 
  ```
- jbang bouncinglogo
+ jbang bouncinglogo@jbangdev
  ```
 
 ### h2
@@ -85,7 +85,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 
 
  ```
- jbang h2
+ jbang h2@jbangdev
  ```
 
 ### catalog2readme
@@ -93,7 +93,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 
 
  ```
- jbang catalog2readme
+ jbang catalog2readme@jbangdev
  ```
 
 ### httpd
@@ -102,7 +102,7 @@ Git command line tool implemented with jgit. Lets you do basic git features with
 Example: `jbang httpd@jbangdev -d _site` will serve out the `_site` folder on localhost:8000.
 
  ```
- jbang httpd
+ jbang httpd@jbangdev
  ```
 
 ### getjava
@@ -110,7 +110,7 @@ Example: `jbang httpd@jbangdev -d _site` will serve out the `_site` folder on lo
 Experimental utility to download Java distributions using api.foojay.io.
 
  ```
- jbang getjava
+ jbang getjava@jbangdev
  ```
 
 ### ec
@@ -118,7 +118,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 
 
  ```
- jbang ec
+ jbang ec@jbangdev
  ```
 
 ### faker
@@ -126,7 +126,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 
 
  ```
- jbang faker
+ jbang faker@jbangdev
  ```
 
 ### dalle
@@ -134,7 +134,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 
 
  ```
- jbang dalle
+ jbang dalle@jbangdev
  ```
 
 ### bootstrap
@@ -142,7 +142,7 @@ Experimental utility to download Java distributions using api.foojay.io.
 Bootstrap a jbang script to make it self-contained.
 
  ```
- jbang bootstrap
+ jbang bootstrap@jbangdev
  ```
 
 ### jmc
@@ -150,7 +150,7 @@ Bootstrap a jbang script to make it self-contained.
 
 
  ```
- jbang jmc
+ jbang jmc@jbangdev
  ```
 
 
